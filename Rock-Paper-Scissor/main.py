@@ -1,19 +1,22 @@
 import random
 
+#Welcome Message
 print("Welcome to Rock Paper Scissors Game")
 print("Press R for Rock, P for Paper and S for Scissors")
 
 choices = {"R": "Rock", "P": "Paper", "S": "Scissors"}
 winning_pairs = {("S", "P"), ("P", "R"), ("R", "S")}
 
-user_count = 0
-computer_count = 0
+user_count = 0  #User_Score
+computer_count = 0  #Computer_Count
 
+#Loop to check Rounds
 for i in range(1,11):
 
     computer = random.choice(list(choices.keys()))
     user = input("Enter your Choice: ").upper()
 
+    #Winning Check of Match
     if (i == 10):
       if (user_count > computer_count):
           print("You Won the Match , Champion !")
@@ -29,6 +32,7 @@ for i in range(1,11):
     else:
         print(f"Computer chose {choices[computer]}")
 
+    #Winning Logic of each Round
     if user == computer:
         print("Match is Drawn!")
     elif (user, computer) in winning_pairs:
