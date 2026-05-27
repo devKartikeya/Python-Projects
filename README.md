@@ -1,10 +1,10 @@
 🐍 Python Projects
 
-A collection of beginner-to-intermediate level Python projects built to strengthen programming logic, problem-solving skills, and practical understanding of Python fundamentals.
+A collection of beginner-to-intermediate level Python projects built to strengthen programming logic, problem-solving skills, automation skills, and practical understanding of Python fundamentals.
 
-This repository contains multiple mini-projects focused on real-world utility programs, game logic, calculations, randomness, and user interaction through the command line.
+This repository contains multiple mini-projects focused on utility tools, automation, desktop interaction, file management, calculations, randomness, and command-line applications.
 
-The projects are lightweight, interactive, and built using core Python concepts without external frameworks.
+The projects are lightweight, interactive, and built using core Python concepts along with practical real-world implementations.
 
 ---
 
@@ -110,12 +110,74 @@ Concepts Used
 
 ---
 
+🔔 Py-Notify
+
+A desktop notification automation project built with Python.
+
+Features
+
+- Sends constant desktop notifications
+- Custom notification messages
+- Adjustable notification intervals
+- Lightweight background execution
+
+Concepts Used
+
+- Desktop notification libraries
+- Time scheduling
+- Loops & automation
+- Background task execution
+
+---
+
+📝 Py Todo List
+
+A simple and interactive command-line Todo List manager.
+
+Features
+
+- Add new tasks
+- View pending tasks
+- Delete completed tasks
+- Task management through CLI
+
+Concepts Used
+
+- Lists
+- CRUD operations
+- Functions
+- User input handling
+
+---
+
+📂 Py File Organizer
+
+A Python automation tool that organizes files in any directory automatically.
+
+Features
+
+- Organizes files by type
+- Automatically creates folders
+- Sorts images, documents, videos, code files, and more
+- Works on custom directory paths
+
+Concepts Used
+
+- OS module
+- File handling
+- Directory management
+- Automation scripting
+
+---
+
 🛠️ Tech Stack
 
 Technology| Usage
 Python| Core programming language
 CLI| User interaction
 Random Module| Random number & choice generation
+OS Module| File & directory management
+Notification Libraries| Desktop notification automation
 
 ---
 
@@ -129,6 +191,10 @@ Random Module| Random number & choice generation
 - Lists
 - Randomization
 - User Input Handling
+- File Handling
+- Automation Scripting
+- Desktop Notifications
+- Directory Management
 - Game Logic Development
 - Problem Solving
 
@@ -140,11 +206,12 @@ This repository was created to:
 
 - Improve Python programming skills
 - Practice logical thinking
-- Build hands-on projects
-- Understand real-world implementation of core concepts
-- Create reusable mini utilities and games
+- Build hands-on utility and automation projects
+- Understand real-world implementation of Python concepts
+- Explore desktop interaction and file management
+- Create reusable tools and mini applications
 
-Each project helped strengthen problem-solving abilities and provided practical exposure to Python development.
+Each project helped strengthen problem-solving abilities while providing practical exposure to Python development and automation.
 
 ---
 
@@ -152,6 +219,7 @@ Each project helped strengthen problem-solving abilities and provided practical 
 
 - GUI versions using Tkinter
 - Database integration
-- File handling support
-- Better UI/UX for terminal output
-- Advanced game modes and features
+- Better terminal UI/UX
+- Advanced automation scripts
+- Cross-platform desktop support
+- AI-powered utility integrations
