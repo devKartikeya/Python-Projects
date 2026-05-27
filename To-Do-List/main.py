@@ -24,4 +24,5 @@ if __name__ == "__main__":
         
         display_todos()
     
-    
+    else:
+        print("Invalid Input !")
