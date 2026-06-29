@@ -34,4 +34,3 @@ if response.ok:
     print(f"Visibility: {weather['vis_km']} km")
 else:
     print("❌ Error fetching weather data. Please check your API key or location.")
-+
