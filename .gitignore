@@ -1,1 +1,3 @@
-*.txt
+/Py-Password-Manager/passwords.txt
+*.env
+*/passwords.txt

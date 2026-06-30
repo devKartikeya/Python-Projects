@@ -19,7 +19,7 @@ def get_passwords(dir):
         print('Invalid Credentials !')   
 def main():
     user = input("Enter 'A' to Add Password and 'G' to Get all Passwords: ").lower()
-    dir = os.path.join(f"{os.getcwd()}\\", "Py-Password-Manager\\passwords.txt")
+    dir = os.path.join(f"{os.getcwd()}\\", "Py-Password-Manager\\passwords.env")
     if user == 'a': 
         password = input('Enter your Password: ')
         key = input('Enter your Key: ')
